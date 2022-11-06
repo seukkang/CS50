@@ -1,1 +1,8 @@
-# CS50
+## Corpus Christi Eateries
+#### Video Demo:  <URL HERE>
+#### Description:
+    I created this project in order to introduce different places to eat in Corpus Christi, TX. Although Corpus Christi is not a widely known place in the United States, it contains many cultures and food to represent the people living there. One of the well represented cultures is Hispanic/Latino culture. My project allows people to get to know some of these foods available in Corpus Christi based on their preference of type of food and pricing. It is especially helpful for those unfamiliar with this city and are in need of help when looking for meals. The food options in my project are well known places in Corpus Christi, so trying them out will allow users to be more familiar with the city.
+    
+    My project is a short survey of general questions that allow the program to narrow down a list of eateries to more specific, personalized places. First, I created a function to check whether the user input was proper. I then created two functions, one for each question, in order to create two separate lists that specified the preference for each question. The first question specified the type of food while the second question specified the price range of the food. In the main function, the two lists are compared to produce one item/eatery that matches the user input for both questions. By doing so, a more personalized eatery is outputted for the user. 
+    
+    The test file tested the functions for questions one and two to ensure that they were outputting the proper list when given a specific answer. The answer came from the check function, which was tested by the test file to see if inputting a certain answer choice would output the answer with proper format.
